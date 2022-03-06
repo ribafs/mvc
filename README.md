@@ -1,2 +1,3 @@
-# mvc
-Alguns aplicativos usuando MVC em PHP
+# MVC em PHP
+
+## Alguns aplicativos usuando MVC em PHP
