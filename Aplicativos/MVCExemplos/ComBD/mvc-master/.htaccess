@@ -1,0 +1,10 @@
+<IfModule !rewrite_module>
+	Error "rewrite_module is required."
+</IfModule>
+
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^assets/ - [END]
+RewriteRule ^robots.txt$ - [END]
+RewriteRule ^(?:.*)$ index.php [END]

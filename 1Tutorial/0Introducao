@@ -1,0 +1,18 @@
+Criação de um aplicativo em PHP usando MVC
+Para duas tabelas (clientes e produtos)
+
+Recursos:
+- Bons padões de codificação
+- Convenção para nomes de arquivos, classes, métodos e propriedades, tabelas, campos, etc
+- PHPOO com MVC e rotas
+- PSR-4 com autoload, namespace e composer
+- BootStrap 4
+- Migrations com phinx e faker
+- Outros recursos podem ser adicionados com certa facilidade, inclusive por programadores iniciantes, pois o código é simples
+
+Detalharei a seguir a criação de alguns arquivos do cliente, já os do produtos, como são similares não detalharei.
+
+
+Detalhe: este tutorial partiu do aplicativo https://github.com/ribafs/simplest-mvc, parte 12.
+
+

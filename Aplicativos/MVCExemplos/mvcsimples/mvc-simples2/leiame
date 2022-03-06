@@ -1,0 +1,6 @@
+Bem simples aplicativo usando MVC
+
+Minha intenção é transformar este exemplo simples, sem acesso a bancos de dados, em um exemplo funcional com acesso a bancos de dados.
+
+Nesta primeira fase mudei o código para que controller, model e view tenham apenas um único método, que é o de listagem dos usuários da tabela e adicionei a conexão ao banco com PDO no Model.
+

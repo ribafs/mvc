@@ -1,0 +1,13 @@
+    div.pagination {text-align:center;margin:3px;padding:3px;}
+    div.pagination a {margin-right:2px;border:1px solid #2C2C2C;text-decoration:none;color:#fff;background:#2C2C2C;padding:2px 5px;}
+    div.pagination a:hover,div.pagination a:active {border:1px solid #AAD83E;color:#FFF;background:#AAD83E;}
+    div.pagination span.current {margin-right:2px;border:1px solid #AAD83E;font-weight:700;background:#AAD83E;color:#FFF;padding:2px 5px;}
+    div.pagination span.disabled {margin-right:2px;border:1px solid #f3f3f3;color:#ccc;padding:2px 5px;}
+
+    .mytableP {border:none;width:100%;color:#666;margin:0;padding:0;}
+    .mytableP th {font:bold 11px Calibri,Cambria,Verdana, Arial;color:#FFFFFF;border-right:1px solid #C1DAD7;border-bottom:1px solid #C1DAD7;border-top:1px solid #C1DAD7;letter-spacing:1px;text-transform:uppercase;text-align:left;background:#99CC33 repeat;padding:2px 2px 2px 3px;}
+    .mytableP td {border-right:1px solid #CCC;border-bottom:1px solid #CCC;border-top:1px solid #CCC;border-left:1px solid #CCC;font:12px Calibri,Cambria,Verdana, Arial;color:#333;padding:2px 2px 2px 3px;}
+
+    .e2e { position:fixed; bottom:0; right:0;}
+
+

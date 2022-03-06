@@ -1,0 +1,118 @@
+:root {
+	--dark: #06f;
+	--light: #ccc;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
+*:focus {
+	outline: 1px dotted var(--dark);
+	outline-offset: 2px;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+header h1, main, footer {
+	margin: 20px;
+}
+
+p {
+	margin: 20px 0;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+table, th, td {
+	border: 1px solid #000;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+form > label, form > label > span {
+	display: block;
+}
+
+form > label > span {
+	padding: 10px 0;
+}
+
+form > label > input,
+form > label > textarea,
+form > button {
+	border: 1px solid var(--light);
+	font-size: .9rem;
+	padding: 10px;
+	width: 250px;
+}
+
+form > label > textarea {
+	font-family: inherit;
+	max-height: 200px;
+	resize: vertical;
+}
+
+form > button {
+	background: var(--light);
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+footer {
+	border-top: 1px solid var(--light);
+	font-size: .9rem;
+}
+
+footer > p {
+	margin: 10px 0;
+}
+
+/**
+ * max-width: 768px
+ */
+@media only screen and (max-width: 768px) {
+
+	body {
+		font-size: .9rem;
+	}
+
+	.table-responsive {
+		max-width: 100%;
+		overflow-x: scroll;
+	}
+
+	footer {
+		font-size: .85rem;
+	}
+
+}

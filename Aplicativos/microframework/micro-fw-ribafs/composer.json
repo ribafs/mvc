@@ -1,0 +1,20 @@
+{
+  "name": "ribafs/micro-fw-ribafs",
+  "Description": "Micro Framewrok MVC",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {"name": "Talles Gazel", "email": "tjgazel@gmail.com"},
+    {"name": "Ribamar FS", "email": "ribafs@gmail.com"}
+  ],
+  "autoload":{
+    "psr-4":{
+      "App\\": "app/",
+      "Core\\": "core/"
+    }
+  },
+  "require":{
+    "php": ">=5.6.4",
+    "illuminate/database": "^5.4"
+  }
+}

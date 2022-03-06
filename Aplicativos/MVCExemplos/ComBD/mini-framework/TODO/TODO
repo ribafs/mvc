@@ -1,0 +1,18 @@
+Adicionar validação para campos
+
+	public static function validate($factory)
+	{
+		$val = Validation::forge($factory);
+		$val->add_field('name', 'Name', 'required|max_length[255]');
+		$val->add_field('description', 'Description', 'required');
+
+		return $val;
+	}
+
+Adicionar paginação dos resultados
+
+Adicionar autenticação multiuser
+
+Ajustara o suporte ao postgreSQL
+
+Preparar o mini-framework para ser usado profissionalmente

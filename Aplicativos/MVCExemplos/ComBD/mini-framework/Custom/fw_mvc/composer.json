@@ -1,0 +1,21 @@
+{
+    "name": "panique/mini3",
+    "description": "Framework MVC Simples",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Mvc\\" : "src/"
+        }
+    }
+}

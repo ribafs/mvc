@@ -1,0 +1,23 @@
+{
+    "name": "ribafs/mini-framework",
+    "description": "MINI FRAMEWORK PHP MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Mini\\" : "src/"
+        }
+    }
+}

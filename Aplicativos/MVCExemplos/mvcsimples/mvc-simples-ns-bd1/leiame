@@ -1,0 +1,27 @@
+Bem simples aplicativo usando MVC
+
+Estou considerando que a view não vai direto ao model, mas ao controller
+
+Observe que tudo começa no index.php, que em nosso caso é a view
+
+- A view chama o controller
+- O controller chama os respectivos métodos do model
+- O model devolve para o controller
+- O controller devolve para a view
+
+
+Fiz uma cópia do diretório original
+Criei pastas: Controller, Model e View e movi os respectivos arquivos para elas
+Apliquei o PSR-4 e adicionei o namespace aos arquivos de classes: criei um composer.json com namespace Mvc apontando para a pasta src
+e executei no raiz:
+composer dumpautoload
+Apliquei o namespace em cada uma das classes
+Criei uma pasta public, movi o index.php para ela e criei no raiz um .htaccess redirecionando tudo para public/index.php
+Ajustei o path do autoload no index.php
+Adicionei um formulário para entrada dos dois números e aserem comados e subtraídos e ajustei a View e o Controller.
+
+Nesta versão quero adicionar suporte ao PDO, apenas trazendo a listagem de usuários do banco.
+Tabela users com apenas os c ampos: id e name
+
+Implementei a listagem de usuários, mas usando a conexão como método __construct do Model.
+Agora copiarei esta e tentarei criar um arquivo separado para a conexão. Fazei com que Model herde de Connection.

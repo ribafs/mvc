@@ -1,0 +1,144 @@
+body{
+  margin:0;
+  font-size: 1.25rem;
+}
+
+.navbar{
+  width: 100%;
+  height: 60px;
+  background-color: #343a40;
+  position: fixed;
+}
+
+.carousel{
+  width: 100%;
+  height: 450px;
+  background-color: #777777;
+  margin-bottom:70px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row1{
+  display: flex;
+  flex: 5;
+  text-align: center;
+  padding-bottom:70px;
+  margin-bottom:70px;
+  border-bottom:1px solid #eeeeee;
+}
+
+.row2, .row3, .row4{
+  display: flex;
+  flex:2;
+  padding-bottom:70px;
+  margin-bottom:70px;
+  border-bottom:1px solid #eeeeee;
+}
+
+.col2_1{
+  flex: 2;
+  padding-left: 30px;
+}
+
+.col2_2{
+  flex: 1;
+  background-color: #eeeeee;
+  text-align: center;
+  height: 400px;
+}
+
+.col2_2 p{
+  margin-top: 170px;
+}
+
+.row5{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom:70px;
+}
+
+
+.row1 .col1 .img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #777777;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row1 .col1 button{
+  background-color:#6c757d;
+  color: white;
+  padding:11px;
+  border:0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*Small devices (phones, 576px and up)*/
+@media (max-Width: 767px){
+  .container{
+    max-width: 540px;
+  }
+  
+  .row1{
+    flex-direction: column;
+  }
+  
+  .col1{
+    margin-bottom: 30px;
+  }
+  
+  .row2, .row3, .row4{
+    flex-direction: column;
+  }
+  
+  .row3 .col2_1{order:1}
+  .row3 .col2_2{order:2}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-Width: 768px) and (max-Width: 991.98px){
+  .row1{
+    flex-direction: column;
+  }
+  
+  .col1{
+    margin-bottom: 30px;
+  }
+  
+  .row2, .row3, .row4{
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .container{
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-Width: 992px){
+  .row1{
+    flex-direction: row;
+  }
+  
+  .container{
+    max-width: 960px;
+  }
+  
+  .row2, .row3, .row4{
+    flex-direction: row;
+  }
+}

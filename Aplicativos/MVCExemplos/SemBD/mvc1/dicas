@@ -1,0 +1,16 @@
+Caso não tenha nada após a barra:
+
+if(empty($url[0])){
+        require BASE_PATH . '/controllers/index.php';
+        $index = new Index();
+        $index->index();
+        return false;
+}
+
+
+private function init_error($errors){
+                require_once BASE_PATH . '/controllers/error.php';
+                $error = new Error($errors);
+                $error->index();
+                return false;
+        }

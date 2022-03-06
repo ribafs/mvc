@@ -1,0 +1,5 @@
+Na pasta public também devemos jogar os arquivos css e imagens, além de javascript, caso exista
+
+No nosso caso, estamos usando Bootstrap com CDN, mas na pasta css fica um style.css com códido customizado
+
+

@@ -1,0 +1,23 @@
+{
+    "name": "ribafs/mini-fw-ribafs",
+    "description": "MINI FRAMEWORK RIBAFS- bem simples aplicativo em PHP usando MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "RibaFS\\" : "src/"
+        }
+    }
+}

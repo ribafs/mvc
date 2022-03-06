@@ -1,0 +1,26 @@
+Vejamos como anda o fluxo das informações no mini-framework
+
+.htaccess
+/public/.htaccess
+/public/index.php
+/src/bootstrap.php (inclue o /src/config.php)
+/src/Core/Router.php
+/src/Controller/ClientesController.php (por ser o controller default)
+/src/Core/View.php
+/src/template/clientes/index.php
+
+Com isso saímos do raiz até chegar a view clientes/index.php
+
+Esta view mostra um menu de topo com todos os links, no caso, Customers e Products
+
+Ao clicar num dos links, por exemplo, Products:
+- Primeiro ele vai ao ProductsController e em seu action index()
+- Então ele instancia o ProductsModel
+- E colhe informações do model através de seus métodos
+- Então cria uma instância da classe ProductsView()
+- E volta novamente para a view, agora products, sua index passando as informações colhidas
+
+Assim procede ao clicar em qualquer um dos links
+
+Obs.: ao chamar um link inexistente e a tela continuar a mesma, com os mesmos registros, isso acuja problema no Router.
+

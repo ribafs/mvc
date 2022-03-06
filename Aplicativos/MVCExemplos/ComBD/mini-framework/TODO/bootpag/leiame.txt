@@ -1,0 +1,1 @@
+Suporta bem uma tabela de 1 milhão de registros.

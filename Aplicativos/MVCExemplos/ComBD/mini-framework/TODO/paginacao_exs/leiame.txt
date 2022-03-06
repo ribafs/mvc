@@ -1,0 +1,2 @@
+Crédito
+http://crewow.com/Easy-Pagination-with-PDO-in-PHP-plus-Export-to-Excel.php

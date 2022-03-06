@@ -1,0 +1,44 @@
+Criar a pasta 
+
+php-mvc
+
+Em /var/www/html (diretório web)
+
+cd /var/www/html/php-mvc
+
+Criar então o arquivo
+
+composer.json
+
+Contendo:
+
+{
+    "name": "ribafs/php-mvc",
+    "description": "Aplicativo simples, em PHP usando MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\" : "App/",
+            "Core\\" : "Core/"
+        }
+    }
+}
+
+Então executar o comando
+
+composer du
+
+Que criará a pasta vendor com a estrutura de suporte aos namespace com autoload
+
+

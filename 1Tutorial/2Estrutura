@@ -1,0 +1,46 @@
+Estrutura de arquivos e diretórios
+
+.htaccess
+composer.json
+/public
+/App
+/Core
+
+
+Estrutura Completa
+
+.htaccess
+composer.json
+/public
+    .htaccess
+    index.php
+    /css
+    /image
+/App
+    /Controllers
+        ClienteController.php
+        ProdutoController.php
+    /Models
+        Cliente.php
+        Produto.php
+    /views
+        /clientes
+            index.php
+            search.php
+        /error
+            index.php
+        /produtos
+            index.php
+        /templates
+            footer.php
+            header.php
+/Core
+    Application.php
+    config.php
+    ErrorController.php
+    Model.php
+
+
+Criar a estrutura acima, exceto composer.json que já existe
+
+

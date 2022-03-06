@@ -1,0 +1,21 @@
+{
+    "name": "ribafs/mvc-simples",
+    "description": "MVC Simples com Banco de Dados e PSR-4",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Mvc\\" : "src/"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+Este é o .htaccess do raiz do aplicativo
+Ele r e direciona todas as requisições para a pasta public/
+
+Acessar
+
+cd /var/www/html/php-mvc
+
+Criar
+
+.htaccess
+
+Contendo
+
+RewriteEngine on
+RewriteRule ^(.*) public/$1 [L]
+
+

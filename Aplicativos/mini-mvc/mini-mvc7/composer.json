@@ -1,0 +1,26 @@
+{
+    "name": "ribafs/mini-full",
+    "description": "Aplicactivo mini completo em PHP com MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable",
+  "require":{
+    "php": ">=5.6.4",
+        "tracy/tracy": "^2.7",
+        "filp/whoops": "^2.7"
+  },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\" : "app/",
+            "Core\\" : "core/"
+        }
+    }
+}

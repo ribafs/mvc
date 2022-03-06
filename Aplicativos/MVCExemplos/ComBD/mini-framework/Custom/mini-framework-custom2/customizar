@@ -1,0 +1,46 @@
+Quero adicionar suporte para mais uma tabela
+Vou adicionar a tabela users nesta versão
+
+O que não precisarei alterar:
+- /public
+- /src/config/config.php (apenas entrar com os dados do banco)
+- /src/Core
+- /src/Libs
+- /src/template/_templates
+- /src/template/error
+- /src/bootstrap.php
+
+Precisarei adicionar as informações sobre a nova tabela em:
+
+- /src/Controller, no caso:
+- /src/Controller/VendedoresController.php
+
+- /src/Model, no caso
+- /src/Model/VendedoresModel.php
+
+- /src/template, no caso
+- /src/template/vendedores/add.php
+- /src/template/vendedores/edit.php
+- /src/template/vendedores/index.php
+
+- /src/View, no caso
+- /etc/View/VendedoresView.php
+
+Adicionar o item de menu da tabela em:
+- /src/template/_templates/header.php
+Adicionar
+
+			  <li class="nav-item">
+				<a class="nav-link" href="<?php echo URL; ?>vendedores">Vendedores</a>
+			  </li>
+
+
+Os campos da tabela users são:
+id
+login
+senha
+
+Como geralmente eu procedo para adicionar os arquivos para a nova tabela:
+- Faço uma copia de um arquivo existente, renomeio para compatibilizar com a nova tabela e adapto seu conteúdo para a mesma.
+Exemplo para a criação do novo controller, copio e crio o CountriesController.php
+

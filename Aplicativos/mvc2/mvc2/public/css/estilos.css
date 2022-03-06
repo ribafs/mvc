@@ -1,0 +1,25 @@
+.container{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.caja1{
+  display: flex;
+  flex: 1;/* Depende de la direccion del container */
+}
+
+.caja2{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.col{
+  background-color:blanchedalmond;
+  border: 2px solid #000;
+  flex: 1;
+}
+.carousel-inner {
+    max-height: 600px;
+}
